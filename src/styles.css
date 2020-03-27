@@ -1,0 +1,64 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+/* DivTable.com */
+.divTable{
+	display: table;
+	width: 100%;
+}
+.divTableRow {
+	display: table-row;
+}
+.divTableHeading {
+	background-color: #207cca;
+	display: table-header-group;
+}
+.Heading{
+	background-color: #207cca;
+
+
+}
+.divTableCell, .divTableHead {
+	border: 1px solid #999999;
+	display: table-cell;
+	padding: 3px 10px;
+}
+.divTableHeading {
+	background-color: #207cca;
+	display: table-header-group;
+	font-weight: bold;
+}
+.divTableFoot {
+	background-color: #EEE;
+	display: table-footer-group;
+	font-weight: bold;
+}
+.divTableBody {
+	display: table-row-group;
+}
+
+.search {
+	padding:8px 15px;
+	background:rgba(50, 50, 50, 0.2);
+	border:1px solid #dbdbdb;
+	border-radius:5px;
+	margin:15px
+}
+.button {
+	position:relative;
+	padding:6px 15px;
+	left:-8px;
+	border:2px solid #207cca;
+	background-color:#207cca;
+	color:#fafafa;
+}
+.button:hover  {
+	background-color:#fafafa;
+	color:#207cca;
+}
+.no-data{
+	text-align: center;
+	font-weight:bold;
+}

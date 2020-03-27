@@ -1,2 +1,0 @@
-# ReactSearchFunctionality
-Created with CodeSandbox
